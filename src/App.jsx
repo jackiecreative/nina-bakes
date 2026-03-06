@@ -23,7 +23,7 @@ const defaultDeserts = [
   { id: "3", name: "Blueberry Muffins", emoji: "🫐", price: 3.00, description: "Bursting with berries", imageUrl: "" },
 ];
 
-const polkaDotBg = `radial-gradient(circle, #000 1.5px, transparent 1.5px)`;
+const polkaDotBg = `radial-gradient(circle, #ddd 8px, transparent 8px)`;
 
 const styles = {
   app: {
@@ -31,7 +31,7 @@ const styles = {
     minHeight: "100vh",
     background: "#fff",
     backgroundImage: polkaDotBg,
-    backgroundSize: "24px 24px",
+    backgroundSize: "60px 60px",
     color: "#111",
   },
   nav: {
