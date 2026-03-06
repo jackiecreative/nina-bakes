@@ -254,10 +254,11 @@ export default function App() {
           <div style={styles.hero}>
             <span style={styles.heroEmoji}>🧁</span>
             <h1 style={styles.heroTitle}>Nina Bakes</h1>
-            <p style={styles.heroSub}>Fresh homemade goodies, baked with love every week ✨</p>
-            <div style={styles.contactSign}>📱 Any Questions? Text 914-281-3864</div>
-            <br />
+            <p style={{ ...styles.heroSub, fontWeight: 800, color: "#111" }}>Fresh homemade goodies, baked with love every week ✨</p>
             <button style={styles.btn()} onClick={() => setPage("order")}>Order This Week →</button>
+          </div>
+          <div style={{ textAlign: "center", marginBottom: 16 }}>
+            <div style={styles.contactSign}>📱 Any Questions? Text 914-281-3864</div>
           </div>
           <div style={styles.section}>
             <h2 style={styles.sectionTitle}>This Week's Menu 🍽️</h2>
